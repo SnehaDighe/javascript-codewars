@@ -101,3 +101,13 @@ Requirements:
 * There must be a function for each of the following mathematical operations: plus, minus, times, dividedBy (divided_by in Ruby)
 * Each calculation consist of exactly one operation and two numbers
 * The most outer function represents the left operand, the most inner function represents the right operand
+
+### 08 - Descending Order (7 kyu)
+Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+
+Examples:
+```javascript
+Input: 21445 Output: 54421
+Input: 145263 Output: 654321
+Input: 1254859723 Output: 9875543221
+```
