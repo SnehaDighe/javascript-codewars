@@ -111,3 +111,13 @@ Input: 21445 Output: 54421
 Input: 145263 Output: 654321
 Input: 1254859723 Output: 9875543221
 ```
+
+### 09 - Find the smallest integer in the array (7 kyu)
+Given an array of integers your solution should find the smallest integer.
+
+For example:
+```javascript
+Given [34, 15, 88, 2] your solution will return 2
+Given [34, -345, -1, 100] your solution will return -345
+```
+You can assume, for the purpose of this kata, that the supplied array will not be empty.
