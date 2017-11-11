@@ -3,7 +3,7 @@
 This the my repository for my codewars solutions in JavaScript.
 
 ## Problems
-### 01 - Persistent Bugger
+### 01 - Persistent Bugger (6th Kyu)
 Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
 
 For example:
