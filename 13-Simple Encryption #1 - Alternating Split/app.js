@@ -7,7 +7,7 @@ function encrypt(text, n) {
   let input = text;
   let output = '';
 
-  for(x=0; x<n; x++) {
+  for(let x=0; x<n; x++) {
     output = '';
     let odd_chars = '';
     let even_chars = '';
@@ -37,7 +37,7 @@ function decrypt(encryptedText, n) {
   let input = encryptedText;
   let output = '';
 
-  for(x=0; x<n; x++) {
+  for(let x=0; x<n; x++) {
     output = '';
     let odd_chars = '';
     let even_chars = '';
