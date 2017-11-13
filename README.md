@@ -261,5 +261,29 @@ cachedFunction('foo', 'baz'); // should be executed, because the method wasn't i
 
 ### 21 - Detect Pangram (6 kyu)
 A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
-    
+
 Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
+
+
+### 22 - Array Helpers (6 kyu)
+This kata is designed to test your ability to extend the functionality of built-in ruby classes. In this case, we want you to extend the built-in Array class with the following methods: `square()`, `cube()`, `average()`, `sum()`, `even()` and `odd()`.
+
+Explanation:
+
+* square() must return a copy of the array, containing all values squared, the original array must not be changed
+* cube() must return a copy of the array, containing all values cubed, the original array must not be changed
+* average() must return the average of all array values, average() on an empty array must return NaN
+* sum() must return the sum of all array values
+* even() must return an array of all even numbers, the original array must not be changed
+* odd() must return an array of all odd numbers, the original array must not be changed
+
+Examples:
+```javascript
+var numbers = [1, 2, 3, 4, 5];
+numbers.square(); // must return [1, 4, 9, 16, 25]
+numbers.cube(); // must return [1, 8, 27, 64, 125]
+numbers.average(); // must return 3
+numbers.sum(); // must return 15
+numbers.even(); // must return [2, 4]
+numbers.odd(); // must return [1, 3, 5]
+```
