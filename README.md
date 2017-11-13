@@ -209,7 +209,7 @@ Write a function ip_to_int32(ip) ( JS: `ipToInt32(ip)` ) that takes an IPv4 addr
 ipToInt32("128.32.10.1") => 2149583361
 ```
 
-### 17 - Write Number in Expanded Form
+### 17 - Write Number in Expanded Form (6 kyu)
 You will be given a number and you will need to return it as a string in Expanded Form. For example:
 ```javascript
 expandedForm(12); // Should return '10 + 2'
@@ -218,3 +218,14 @@ expandedForm(70304); // Should return '70000 + 300 + 4'
 ```
 NOTE: All numbers will be whole numbers greater than 0.
 
+
+### 18 - If you can read this... (6 kyu)
+If you can read this...
+The idea for this Kata came from 9gag today.here
+
+You'll have to translate a string to Pilot's alphabet (NATO phonetic alphabet) wiki.
+
+Like this:
+
+`Input:` If you can read    
+`Output:` India Foxtrot Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta
