@@ -244,3 +244,17 @@ multiplication_table(3,3)
 -->[[1,2,3],[2,4,6],[3,6,9]]
 ```
 Each value on the table should be equal to the value of multiplying the number in its first row times the number in its first column.
+
+
+### 20 - Function Cache (5 kyu)
+If you are calculating complex things or execute time-consuming API calls, you sometimes want to cache the results. In this case we want you to create a function wrapper, which takes a function and caches its results depending on the arguments, that were applied to the function.
+    
+Usage example:
+```javascript
+var complexFunction = function(arg1, arg2) { /* complex calculation in here */ };
+var cachedFunction = cache(complexFunction);
+
+cachedFunction('foo', 'bar'); // complex function should be executed
+cachedFunction('foo', 'bar'); // complex function should not be invoked again, instead the cached result should be returned
+cachedFunction('foo', 'baz'); // should be executed, because the method wasn't invoked before with these arguments
+```
