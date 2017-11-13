@@ -248,7 +248,7 @@ Each value on the table should be equal to the value of multiplying the number i
 
 ### 20 - Function Cache (5 kyu)
 If you are calculating complex things or execute time-consuming API calls, you sometimes want to cache the results. In this case we want you to create a function wrapper, which takes a function and caches its results depending on the arguments, that were applied to the function.
-    
+
 Usage example:
 ```javascript
 var complexFunction = function(arg1, arg2) { /* complex calculation in here */ };
@@ -258,3 +258,8 @@ cachedFunction('foo', 'bar'); // complex function should be executed
 cachedFunction('foo', 'bar'); // complex function should not be invoked again, instead the cached result should be returned
 cachedFunction('foo', 'baz'); // should be executed, because the method wasn't invoked before with these arguments
 ```
+
+### 21 - Detect Pangram (6 kyu)
+A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+    
+Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
