@@ -416,7 +416,7 @@ All letters will be lowercase and all inputs will be valid.
 
 ### 29 - Statistics for an Athletic Association (6 kyu)
 You are the "computer expert" of a local Athletic Association (C.A.A.). Many teams of runners come to compete. Each time you get a string of all race results of every team who has run. For example here is a string showing the individual results of a team of 5:
-    
+
 `"01|15|59, 1|47|6, 01|17|20, 1|32|34, 2|3|17"`
 
 Each part of the string is of the form: `h|m|s` where h, m, s are positive or null integer (represented as strings) with one or two digits. There are no traps in this format.
@@ -442,3 +442,12 @@ where hh, mm, ss are integers (represented by strings) with each 2 digits.
 Remarks:
 1. if a result in seconds is ab.xy... it will be given truncated as ab.
 2. if the given string is "" you will return ""
+
+
+### 30 - Consecutive strings (6 kyu)
+You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
+
+Example: longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
+
+n being the length of the string array, if `n = 0` or `k > n` or `k <= 0` return "".
+
