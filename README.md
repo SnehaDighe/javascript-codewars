@@ -400,3 +400,15 @@ In order to send the message `"WHERE DO U WANT 2 MEET L8R"` a teen would have to
 For this assignment, write a module that can calculate the amount of button presses required for any phrase. Punctuation can be ignored for this exercise. Likewise, you can assume the phone doesn't distinguish between upper/lowercase characters (but you should allow your module to accept input in either for convenience).
 
 Hint: While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
+
+
+### 28 - Highest Scoring Word
+Given a string of words, you need to find the highest scoring word.
+
+Each letter of a word scores points according to it's position in the alphabet: `a = 1, b = 2, c = 3` etc.
+
+You need to return the highest scoring word as a string.
+
+If two words score the same, return the word that appears earliest in the original string.
+
+All letters will be lowercase and all inputs will be valid.
