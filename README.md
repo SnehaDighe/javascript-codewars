@@ -631,7 +631,7 @@ You may assume:
 * at least 2 arguments (d1and value) are provided
 * each d argument will be a positive integer
 * value argument may be a number, a string, a boolean, ...
-    
+
 If `value` is a function then the result of this function will be attribued to the item.
 
 Examples:
@@ -651,3 +651,18 @@ var rnd=function(){ return (~~Math.random()*3) }
 dim( 3,2,rnd ) // => (depends on results of rnd) 
   // eg: [[0,1],[2,1],[0,0]]
 ```
+
+
+## 36 - Trim method (7 kyu)
+The trim() method removes whitespace from both sides of a string. w3schools 
+
+In this kata we are going to extend the trim method to be able to remove any character(upper and lower cases) from both sides of a string.
+`Task:`   
+Create a method called `trim` which removes the passed parameter `c`(upper and lower cases) from the leading and tailing of the string.
+    
+Note:   
+1. If no parameter is being passed you need to remove the leading and tailing spaces. 
+2. The passed parameter will only be alphabet(upper and lower cases) characters.
+Examples:   
+`string = "LLLHello Worldlll" and c = "l" => "Hello World"`   
+`string = "Visca ElbarcaXxX" and c = "X" => "Visca Elbarca"`
