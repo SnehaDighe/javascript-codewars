@@ -2,8 +2,7 @@
 
 This the my repository for my codewars solutions in JavaScript.
 
-## Problems
-### 01 - Persistent Bugger (6 Kyu)
+## 01 - Persistent Bugger (6 Kyu)
 Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
 
 For example:
@@ -17,7 +16,7 @@ persistence(999) === 4 // because 9*9*9 = 729, 7*2*9 = 126,
 persistence(4) === 0 // because 4 is already a one-digit number
 ```
 
-### 02 - Ones and Zeros (7 kyu)
+## 02 - Ones and Zeros (7 kyu)
 Given an array of one's and zero's convert the equivalent binary value to an integer.
 
 Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1
@@ -32,7 +31,7 @@ Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 ```
 
-### 03 - Printer Errors (7 kyu)
+## 03 - Printer Errors (7 kyu)
 In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
 
 The colors used by the printer are recorded in a control string. For example a "good" control string would be aaabbbbhaijjjm meaning that the printer used three times color a, four times color b, one time color h then one time color a...
@@ -52,7 +51,7 @@ s="aaaxbbbbyyhwawiwjjjwwm"
 error_printer(s) => "8/22"
 ```
 
-### 04 - Array.diff (6 kyu)
+## 04 - Array.diff (6 kyu)
 Your goal in this kata is to implement an difference function, which subtracts one list from another.
 
 It should remove all values from list a, which are present in list b.
@@ -64,7 +63,7 @@ If a value is present in b, all of its occurrences must be removed from the othe
 array_diff([1,2,2,2,3],[2]) == [1,3]
 ```
 
-### 05 - A square of squares (8 kyu)
+## 05 - A square of squares (8 kyu)
 You like building blocks. You especially like building blocks that are squares. And what you even like more, is to arrange them into a square of square building blocks!
 
 However, sometimes, you can't arrange them into a square. Instead, you end up with an ordinary rectangle! Those blasted things! If you just had a way to know, whether you're currently working in vain… Wait! That's it! You just have to check if your number of building blocks is a perfect square.
@@ -83,11 +82,11 @@ isSquare(25) // => true
 isSquare(26) // => false
 ```
 
-### 06 - Remove First and Last Character (8 kyu)
+## 06 - Remove First and Last Character (8 kyu)
 It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, except in C, where, to keep the difficulty at the level of the kata, you are given two parameters, the first a buffer with length exactly the same as the second parameter, the original string. You don't have to worry with strings with less than two characters.
 
 
-### 07 - Calculating with Functions (5 kyu)
+## 07 - Calculating with Functions (5 kyu)
 This time we want to write calculations using functions and get the results. Let's have a look at some examples:
 ```javascript
 seven(times(five())); // must return 35
@@ -102,7 +101,7 @@ Requirements:
 * Each calculation consist of exactly one operation and two numbers
 * The most outer function represents the left operand, the most inner function represents the right operand
 
-### 08 - Descending Order (7 kyu)
+## 08 - Descending Order (7 kyu)
 Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
 Examples:
@@ -112,7 +111,7 @@ Input: 145263 Output: 654321
 Input: 1254859723 Output: 9875543221
 ```
 
-### 09 - Find the smallest integer in the array (7 kyu)
+## 09 - Find the smallest integer in the array (7 kyu)
 Given an array of integers your solution should find the smallest integer.
 
 For example:
@@ -122,10 +121,10 @@ Given [34, -345, -1, 100] your solution will return -345
 ```
 You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
-### 10 - Find the odd int (7 kyu)
+## 10 - Find the odd int (7 kyu)
 Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times.
 
-### 11 - Find the next perfect square (7 kyu)
+## 11 - Find the next perfect square (7 kyu)
 You might know some pretty large perfect squares. But what about the NEXT one?
 
 Complete the findNextSquare method that finds the next integral perfect square after the one passed as a parameter. Recall that an integral perfect square is an integer n such that sqrt(n) is also an integer.
@@ -139,7 +138,7 @@ findNextSquare(625) --> returns 676
 findNextSquare(114) --> returns -1 since 114 is not a perfect
 ```
 
-### 12 - Duplicate Encoder (6 kyu)
+## 12 - Duplicate Encoder (6 kyu)
 The goal of this exercise is to convert a string to a new string where each character in the new string is '(' if that character appears only once in the original string, or ')' if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
 Examples:
@@ -153,7 +152,7 @@ Examples:
 "(( @" => "))(("
 ```
 
-### 13 - Simple Encryption #1 - Alternating Split (6 kyu)
+## 13 - Simple Encryption #1 - Alternating Split (6 kyu)
 For building the encrypted string: Take every 2nd char from the string, then the other chars, that are not every 2nd char, and concat them as new String. Do this n times!
 
 Examples:
@@ -170,7 +169,7 @@ For both methods:
 If the input-string is null or empty return exactly this value!   
 If n is <= 0 then return the input text.
 
-### 14 - Tribonacci Sequence (6 kyu)
+## 14 - Tribonacci Sequence (6 kyu)
 Well met with Fibonacci bigger brother, AKA Tribonacci.
 
 As the name may already reveal, it works basically like a Fibonacci, but summing the last 3 (instead of 2) numbers of the sequence to generate the next. And, worse part of it, regrettably I won't get to hear non-native Italian speakers trying to pronounce it :(
@@ -187,12 +186,12 @@ Well, you may have guessed it by now, but to be clear: you need to create a fibo
 
 Signature will always contain 3 numbers; n will always be a non-negative number; if `n == 0`, then return an empty array and be ready for anything else which is not clearly specified ;)
 
-### 15 - Rot13 (5 kyu)
+## 15 - Rot13 (5 kyu)
 ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet. ROT13 is an example of the Caesar cipher.
     
 Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 "implementation".
 
-### 16 - IPv4 to int32 (6 kyu)
+## 16 - IPv4 to int32 (6 kyu)
 Take the following IPv4 address: 128.32.10.1 This address has 4 octets where each octet is a single byte (or 8 bits).
     
 * 1st octet 128 has the binary representation: 10000000
@@ -209,7 +208,7 @@ Write a function ip_to_int32(ip) ( JS: `ipToInt32(ip)` ) that takes an IPv4 addr
 ipToInt32("128.32.10.1") => 2149583361
 ```
 
-### 17 - Write Number in Expanded Form (6 kyu)
+## 17 - Write Number in Expanded Form (6 kyu)
 You will be given a number and you will need to return it as a string in Expanded Form. For example:
 ```javascript
 expandedForm(12); // Should return '10 + 2'
@@ -219,7 +218,7 @@ expandedForm(70304); // Should return '70000 + 300 + 4'
 NOTE: All numbers will be whole numbers greater than 0.
 
 
-### 18 - If you can read this... (6 kyu)
+## 18 - If you can read this... (6 kyu)
 If you can read this...
 The idea for this Kata came from 9gag today.here
 
@@ -230,7 +229,7 @@ Like this:
 `Input:` If you can read    
 `Output:` India Foxtrot Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta
 
-### 19 - Multiplication Tables  (6 kyu)
+## 19 - Multiplication Tables  (6 kyu)
 Create a function that accepts dimensions, of Rows x Columns, as parameters in order to create a multiplication table sized according to the given dimensions. **The return value of the function must be an array, and the numbers must be Fixnums, NOT strings.
 
 Example:
@@ -246,7 +245,7 @@ multiplication_table(3,3)
 Each value on the table should be equal to the value of multiplying the number in its first row times the number in its first column.
 
 
-### 20 - Function Cache (5 kyu)
+## 20 - Function Cache (5 kyu)
 If you are calculating complex things or execute time-consuming API calls, you sometimes want to cache the results. In this case we want you to create a function wrapper, which takes a function and caches its results depending on the arguments, that were applied to the function.
 
 Usage example:
@@ -259,13 +258,13 @@ cachedFunction('foo', 'bar'); // complex function should not be invoked again, i
 cachedFunction('foo', 'baz'); // should be executed, because the method wasn't invoked before with these arguments
 ```
 
-### 21 - Detect Pangram (6 kyu)
+## 21 - Detect Pangram (6 kyu)
 A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
 
 Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
 
-### 22 - Array Helpers (6 kyu)
+## 22 - Array Helpers (6 kyu)
 This kata is designed to test your ability to extend the functionality of built-in ruby classes. In this case, we want you to extend the built-in Array class with the following methods: `square()`, `cube()`, `average()`, `sum()`, `even()` and `odd()`.
 
 Explanation:
@@ -288,7 +287,7 @@ numbers.even(); // must return [2, 4]
 numbers.odd(); // must return [1, 3, 5]
 ```
 
-### 23 - Count the smiley faces! (6 kyu)
+## 23 - Count the smiley faces! (6 kyu)
 Given an array (arr) as an argument complete the function countSmileys that should return the total number of smiling faces.
 
 Rules for a smiling face:
@@ -305,7 +304,7 @@ countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
 ```
 Note: In case of an empty array return 0. You will not be tested with invalid input (input will always be an array). Order of the face (eyes, nose, mouth) elements will always be the same
 
-### 24 - Who likes it? (6 kyu)
+## 24 - Who likes it? (6 kyu)
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 
 Implement a function likes :: [String] -> String, which must take in input array, containing the names of people who like an item. It must return the display text as shown in the examples:
@@ -318,7 +317,7 @@ likes ["Alex", "Jacob", "Mark", "Max"] // must be "Alex, Jacob and 2 others like
 ```
 For more than 4 names, the number in and `2 others` simply increases.
 
-### 25 - Buying a car (6 kyu)
+## 25 - Buying a car (6 kyu)
 A man has a rather old car being worth $2000. He saw a secondhand car being worth $8000. He wants to keep his old car until he can buy the secondhand one.
 
 He thinks he can save $1000 each month but the prices of his old car and of the new one decrease of 1.5 percent per month. Furthermore the percent of loss increases by a fixed 0.5 percent at the end of every two months.
@@ -345,7 +344,7 @@ nbMonths(8000, 8000, 1000, 1.5) should return [0, 0]
 ```
 We don't take care of a deposit of savings in a bank:-)
 
-### 26 - Simple fraction to mixed number converter (5 kyu)
+## 26 - Simple fraction to mixed number converter (5 kyu)
 Given a string representing a simple fraction `x/y`, your function must return a string representing the corresponding mixed fraction in the following format:
 
 `[sign]a b/c`
@@ -371,7 +370,7 @@ Examples:
 Note:
 Make sure not to modify the input of your function in-place, it is a bad practice.
 
-### 27-Multi-tap Keypad Text Entry on an Old Mobile Phone (6 kyu)
+## 27-Multi-tap Keypad Text Entry on an Old Mobile Phone (6 kyu)
 Prior to having fancy iPhones, teenagers would wear out their thumbs sending SMS messages on candybar-shaped feature phones with 3x4 numeric keypads.
 ```javascript
 ------- ------- -------
@@ -402,7 +401,7 @@ For this assignment, write a module that can calculate the amount of button pres
 Hint: While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
 
 
-### 28 - Highest Scoring Word
+## 28 - Highest Scoring Word
 Given a string of words, you need to find the highest scoring word.
 
 Each letter of a word scores points according to it's position in the alphabet: `a = 1, b = 2, c = 3` etc.
@@ -414,7 +413,7 @@ If two words score the same, return the word that appears earliest in the origin
 All letters will be lowercase and all inputs will be valid.
 
 
-### 29 - Statistics for an Athletic Association (6 kyu)
+## 29 - Statistics for an Athletic Association (6 kyu)
 You are the "computer expert" of a local Athletic Association (C.A.A.). Many teams of runners come to compete. Each time you get a string of all race results of every team who has run. For example here is a string showing the individual results of a team of 5:
 
 `"01|15|59, 1|47|6, 01|17|20, 1|32|34, 2|3|17"`
@@ -444,7 +443,7 @@ Remarks:
 2. if the given string is "" you will return ""
 
 
-### 30 - Consecutive strings (6 kyu)
+## 30 - Consecutive strings (6 kyu)
 You are given an array strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
 
 Example: longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
@@ -452,7 +451,7 @@ Example: longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "the
 n being the length of the string array, if `n = 0` or `k > n` or `k <= 0` return "".
 
 
-### 31 - Kind Remainder (7 kyu)
+## 31 - Kind Remainder (7 kyu)
 Write a function that will receive three arguments. The first two will always be arrays consisting of integers, the third one will be a string of letters. The lengths of the first two arrays will be equal, and the integers will always be positive.
 
 You function should divide the first integer of the first array by the first one of the second array to find the remainder and then do the same with the second pair of integers, etc. If the biggest remainder of all found is an even number, the function should return the string in minuscule (small letters). Otherwise, the function should return the string in majuscule (capital letters).
@@ -466,3 +465,35 @@ the remainder of the first pair of integers (16 divided by 10) is 6;
 the remainder of the second pair is 1;
     
 the biggest remainder found is 6, and since 6 is an even number --> the string is returned in minuscule.
+
+## 32 - Equal Sides of An Array (6 kyu)
+You are going to be given an array of integers. Your job is to take that array and find an index N where the sum of the integers to the left of N is equal to the sum of the integers to the right of N. If there is no index that would make this happen, return `-1`.
+
+For example:
+
+Let's say you are given the array `{1,2,3,4,3,2,1}`:
+Your function will return the index `3`, because at the 3rd position of the array, the sum of left side of the index `({1,2,3})` and the sum of the right side of the index `({3,2,1})` both equal `6`.
+    
+Let's look at another one.    
+You are given the array `{1,100,50,-51,1,1}`:   
+Your function will return the index `1`, because at the 1st position of the array, the sum of left side of the index `({1})` and the sum of the right side of the index `({50,-51,1,1})` both equal `1`.
+
+Last one:   
+You are given the array `{20,10,-80,10,10,15,35}`   
+At index 0 the left side is `{}`    
+The right side is `{10,-80,10,10,15,35}`    
+They both are equal to `0` when added. (Empty arrays are equal to 0 in this problem)    
+Index 0 is the place where the left side and right side are equal.    
+
+Note: Please remember that in most programming/scripting languages the index of an array starts at 0.
+
+Input:    
+An integer array of length `0 < arr < 1000`. The numbers in the array can be any integer positive or negative.
+
+Output:   
+The lowest index `N` where the side to the left of `N` is equal to the side to the right of `N`. If you do not find an index that fits these rules, then you will return `-1`.
+
+Note:
+If you are given an array with multiple answers, return the lowest correct index.   
+An empty array should be treated like a `0` in this problem.    
+
