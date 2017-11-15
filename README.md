@@ -708,3 +708,14 @@ Requirements
 input: array of strings (symbols)/integers (codes) you must encode/decode   
 output: array of integers (codes)/strings (symbols) sorted by code values ASC   
 * if input is not defined or is not and array return null, if is empty array return empty array   
+
+
+## 38 - Sort-one,three,two (5 kyu)
+Hey You !   
+Sort these integers for me ...    
+By name ...   
+Do it now !   
+Input:
+* Range is 0-999
+* There may be duplicates
+* The array may be empty
