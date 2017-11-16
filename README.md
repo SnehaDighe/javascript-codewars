@@ -732,3 +732,10 @@ extend( {a: 1, b: 2}, {c: 3}, {d: 4} ) // should === {a: 1, b: 2, c: 3, d: 4}
 extend( {a: 1, b: 2}, {a: 3, c: 3} ) // should  === {a: 1, b: 2, c: 3}
 extend( {a: false, b: null}, {a: true, b: 2, c: 3} ) // should  === {a: false, b: null, c: 3}
 ```
+
+## 40 - Numbers in strings (7 kyu)
+In this Kata, you will be given a string that has lowercase letters and numbers. Your task is to compare the number groupings and return the largest number.
+    
+For example, `solve("gh12cdy695m1") = 695`, because this is the largest of all number groupings.
+    
+Good luck!
