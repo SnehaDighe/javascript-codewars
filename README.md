@@ -739,3 +739,21 @@ In this Kata, you will be given a string that has lowercase letters and numbers.
 For example, `solve("gh12cdy695m1") = 695`, because this is the largest of all number groupings.
     
 Good luck!
+
+
+## 41 - Check if two words are isomorphic to each other (6 kyu)
+Two strings a and b are called isomorphic if there is a one to one mapping possible for every character of a to every character of b. And all occurrences of every character in a map to same character in b.
+
+In this kata you will create a function that return True if two given strings are isomorphic to each other, and False otherwise.
+
+Example:    
+`True`    
+```javascript
+CBAABC DEFFED
+RAMBUNCTIOUSLY THERMODYNAMICS
+```
+`False`   
+```javascript
+AB CC
+ABAB CD
+```
