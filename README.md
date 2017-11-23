@@ -820,3 +820,9 @@ Examples
 dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]) => ["WEST"]
 dirReduc(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]) => []
 ```
+
+## 44 - Sum of a nested list (7 kyu)
+
+Implement a function to calculate the sum of the numerical values in a nested list. For example :
+`sumNested([1, [2, [3, [4]]]]) => 10`
+
