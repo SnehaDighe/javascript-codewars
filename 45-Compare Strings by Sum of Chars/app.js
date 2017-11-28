@@ -13,8 +13,8 @@ function compare(s1, s2) {
 
 //charCodeAt
 
-// console.log(compare("AD", "BC"))
-const {expect,to} = require("chai");
+console.log(compare("AD", "BC"))
+// const {expect,to} = require("chai");
 
 // it("should handle basic comparison", function() {
 //   expect(compare("AD", "BC")).to.eql(true)
@@ -27,6 +27,6 @@ const {expect,to} = require("chai");
 //   expect(compare("zz1", "")).to.eql(true)
 // })
 
-it("should handle special characters", function() {
-  expect(compare("!!","7476")).to.eql(true)
-})
+// it("should handle special characters", function() {
+//   expect(compare("!!","7476")).to.eql(true)
+// })
